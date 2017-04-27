@@ -50,6 +50,6 @@ defmodule Simple.Mixfile do
     ["ecto.setup": ["ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
      "ecto.reset": ["ecto.drop", "ecto.setup"],
      "test": ["ecto.create --quiet", "ecto.migrate", "test"],
-     "swagger": ["phoenix.swagger.generate priv/static/swagger.json"]]
+     "swagger": ["phx.swagger.generate priv/static/swagger.json"]]
   end
 end

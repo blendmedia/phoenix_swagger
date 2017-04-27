@@ -221,7 +221,7 @@
     "version": "1.0",
     "title": "Simple App"
   },
-  "host": "localhost:4000",
+  "host": "localhost",
   "definitions": {
     "UsersResponse": {
       "type": "object",
